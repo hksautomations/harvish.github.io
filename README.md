@@ -15,7 +15,7 @@ It has dummy/placeholder data throughout that you need to replace with your real
 
 ## ✨ FEATURES INCLUDED
 
-✅ **Dark premium theme** (kumashshah.com inspired)  
+✅ **Dark premium theme**
 ✅ **Two-way experience** (Technical track + Leadership track)  
 ✅ **Dual skills sections** (Industrial/Technical + Digital/AI)  
 ✅ **Gated resume download** (collects name/email before download)  
@@ -33,7 +33,7 @@ It has dummy/placeholder data throughout that you need to replace with your real
 ## 📁 FILE STRUCTURE
 
 ```
-harvishshah-framework/
+harvish-framework/
 ├── index.html              ← Main site (has dummy data)
 ├── DATA-TO-REPLACE.md      ← Complete guide to what needs updating
 ├── README.md               ← This file
@@ -61,7 +61,7 @@ harvishshah-framework/
 - Replace `YOUR_FORM_ID` in index.html (line 1120)
 
 ### 4. Deploy to GitHub Pages
-- Create repo: `harvishshah.github.io`
+- Create repo: `harvish.github.io`
 - Upload ALL files
 - Settings → Pages → Enable
 - Visit: https://harvishshah.github.io
