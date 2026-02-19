@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -254,23 +254,27 @@
         }
 
         /* ─── CERTIFICATIONS ─── */
-        .certs-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+        .certs-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
         .cert-card {
-            border:1px solid var(--border); border-radius:18px;
-            padding:34px 28px; text-align:center; transition:all .3s;
+            border:1px solid var(--border); 
+            border-radius:14px;
+            padding:22px 20px;
+            text-align:center;
+            transition:all .3s;
             background:var(--bg-card);
         }
         .cert-card:hover {
-            border-color:rgba(59,130,246,0.4);
-            transform:translateY(-5px);
-            box-shadow:0 16px 48px rgba(59,130,246,0.1);
+            border-color: rgba(59,130,246,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            border-color: var(--blue);
         }
-        .cert-card.featured { background:var(--blue); border-color:var(--blue); }
+ /*       .cert-card.featured { background:var(--blue); border-color:var(--blue); }
         .cert-card.featured .cert-title,
         .cert-card.featured .cert-issuer,
-        .cert-card.featured .cert-year { color:white !important; }
-        .cert-icon { font-size:40px; margin-bottom:18px; }
-        .cert-title { font-size:16px; font-weight:700; color:var(--text-primary); margin-bottom:8px; }
+        .cert-card.featured .cert-year { color:white !important; } */
+        .cert-icon { font-size:28px; margin-bottom:12px; }
+        .cert-title { font-size:15px; font-weight:600; color:var(--text-primary); margin-bottom:6px;  }
         .cert-issuer { font-size:13px; color:var(--text-secondary); font-weight:500; }
         .cert-year { font-size:12px; color:var(--text-tertiary); margin-top:10px; font-weight:600; }
 
@@ -450,8 +454,8 @@
         <div>
             <div class="hero-badge"><span class="badge-dot"></span> Open to Relocation</div>
             <h1>Harvish Shah</h1>
-            <div class="hero-role">Industrial Service Specialist<br>Aftermarket Operations · Field Services Leadership · Automation Systems</div>
-            <p class="hero-desc">14+ years driving operational excellence through industrial automation, SCADA systems, and digital transformation initiatives at GEA Process Engineering and Siemens.</p>
+            <div class="hero-role">Senior Industrial Service & Automation Professional<br>Service Operations · Automation Systems · Digital & AI-Driven Initiatives</div>
+            <p class="hero-desc">Senior service and automation professional with 14+ years of experience across industrial markets. Actively driving digital transformation initiatives within organization, bridging engineering execution with data, automation, and AI-enabled process improvements to strengthen operational performance and aftermarket support.</p>
             <div class="hero-btns">
                 <button onclick="openResumeModal()" class="btn-primary">
                     <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
@@ -472,9 +476,9 @@
         </div>
         <div>
             <div class="profile-card">
-                <div class="profile-photo">👨‍💻</div>
+                <div class="profile-photo">📊</div>
                 <div class="profile-name">Harvish Shah</div>
-                <div class="profile-role">Automation & Aftermarket Services Manager</div>
+                <div class="profile-role">Senior Industrial Service & Automation Professional</div>
      <!--           <div class="profile-cert">
                     <div class="profile-cert-icon">🏆</div>
                     <div>
@@ -485,12 +489,12 @@
                 <div class="profile-stats">
                     <div class="ps-item"><div class="ps-num">14+</div><div class="ps-lbl">Years of Industrial Leadership</div></div>
                     <div class="ps-item"><div class="ps-num">50+</div><div class="ps-lbl">Projects & Service Engagements Delivered</div></div>
-                    <div class="ps-item"><div class="ps-num">5</div><div class="ps-lbl">Industries Supported</div></div>
+                    <div class="ps-item"><div class="ps-num">5+</div><div class="ps-lbl">Digital Initiatives</div></div>
                 </div>
                 <div class="profile-actions">
-                    <a href="https://wa.me/919925798962" target="_blank" class="profile-btn wa">
-                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                        WhatsApp
+                    <a href="www.linkedin.com/in/harvishshah" target="_blank" class="profile-btn linkedin">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
                     </a>
                     <a href="mailto:harvishshah@gmail.com" class="profile-btn email">
                         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
@@ -510,10 +514,10 @@
             <h2 class="s-title">By The Numbers</h2>
         </div>
         <div class="stats-row">
-            <div class="stat-box"><div class="stat-box-num">14+</div><div class="stat-box-lbl">Years Engineering Industrial Intelligence</div></div>
+            <div class="stat-box"><div class="stat-box-num">14+</div><div class="stat-box-lbl">Years in Service & Automation Operations</div></div>
             <div class="stat-box"><div class="stat-box-num">50+</div><div class="stat-box-lbl">Projects & Service Engagements Delivered</div></div>
-            <div class="stat-box"><div class="stat-box-num">5+</div><div class="stat-box-lbl">Manufacturing & Process </div><div class="stat-box-lbl"> Industries Served</div></div>
-            <div class="stat-box"><div class="stat-box-num">3</div><div class="stat-box-lbl">Countries </div><div class="stat-box-lbl"> Cross-Cultural Project Execution</div></div>
+            <div class="stat-box"><div class="stat-box-num">5+</div><div class="stat-box-lbl">Internal Processes Digitally Transformed</div></div>
+            <div class="stat-box"><div class="stat-box-num">4+</div><div class="stat-box-lbl">Countries </div><div class="stat-box-lbl"> Cross-Cultural Project Execution</div></div>
         </div>
     </div>
 </section>
@@ -524,15 +528,15 @@
         <div class="s-head center">
             <div class="s-tag">PROFESSIONAL JOURNEY</div>
             <h2 class="s-title">Career Experience</h2>
-            <p class="s-sub">14+ years across industrial automation, digital transformation, and AI-powered workflow systems</p>
+            <p class="s-sub">14+ years in industrial service execution, automation systems, and digital transformation initiatives across manufacturing and process industries</p>
         </div>
         
         <div class="exp-tabs">
             <button class="exp-tab active" onclick="switchTab('technical')">Professional Experience</button>
-            <button class="exp-tab" onclick="switchTab('leadership')">Leadership & Management</button>
+            <button class="exp-tab" onclick="switchTab('portfolios')">Key Functional Portfolios</button>
         </div>
 
-        <!-- TECHNICAL TRACK -->
+        <!-- TProfessional Experience -->
         <div class="exp-content active" id="technical">
             <div class="timeline">
         <!--        <div class="tl-item">
@@ -556,15 +560,17 @@
                     <div class="tl-year">2018 — PRESENT</div>
                     <div class="tl-title">Specialist Service Execution Engineer</div>
                     <div class="tl-company">GEA Process Engineering (I) Pvt Ltd · Vadodara, India</div>
-                    <p class="tl-desc">Led technical initiatives in process engineering, service execution, and digital transformation for industrial automation systems.</p>
+                    <p class="tl-desc">Responsible for service execution and lifecycle support of industrial automation systems across manufacturing and process industries. Since Nov 2025, entrusted with leading digital transformation initiatives within service operations, driving process standardization, system integration, and workflow automation to enhance operational efficiency and client responsiveness.</p>
                     <div class="tl-achievements">
-                        <div class="tl-achievements-title">Technical Achievements:</div>
-                        <ul>
-                            <li>Designed and implemented SQL-based Enquiry Tracking System replacing manual processes</li>
-                            <li>Integrated CRM and ERP systems for unified data architecture</li>
-                            <li>Automated client reporting workflows using Power BI and custom scripts</li>
-                            <li>Reduced manual data processing time by 40% through workflow automation</li>
-                        </ul>
+                        <div class="tl-achievements-title">Service & Digital Transformation Impact:</div>
+                    <ul>
+                        <li>Executing and coordinating field service activities, commissioning support, and lifecycle maintenance for industrial automation systems across multiple client sites</li>
+                        <li>Developing SLA-driven service offerings, managing customer proposal submissions, converting opportunities into service contracts, and overseeing execution in coordination with field service teams</li>
+                        <li>Managing aftermarket support including spares offering, technical troubleshooting oversight, and service planning</li>
+                        <li>Owning digital service and SLA offerings for the India cluster, leading customer engagement, proposal development, contract finalization, and coordination of execution with field service teams</li>
+                        <li>Leading digital transformation initiatives across service operations, streamlining 5+ internal processes through structured automation and data integration</li>                       
+                        <li>Developing enquiry tracking and reporting systems using Microsoft Power APP and Power BI to enhance operational transparency and decision-making</li>
+                    </ul>
                     </div>
                 </div>
 
@@ -573,15 +579,16 @@
                     <div class="tl-year">2014 — 2018</div>
                     <div class="tl-title">Senior Executive Automation Service</div>
                     <div class="tl-company">Siemens Limited · Vadodara, India</div>
-                    <p class="tl-desc">Programmed and commissioned industrial automation systems including PCS7, PLCs, and SCADA for critical infrastructure projects.</p>
+                    <p class="tl-desc">Delivered automation service, commissioning, and lifecycle support across multiple industrial sectors. Managed AMC contracts, retrofit projects, and client service engagements for Siemens PCS7, PLC, HMI, and WinCC-based systems.</p>
                     <div class="tl-achievements">
-                        <div class="tl-achievements-title">Technical Contributions:</div>
-                        <ul>
-                            <li>Programmed complex PCS7 and PLC logic for 99.9% uptime systems</li>
-                            <li>Designed SCADA HMI interfaces for water treatment and industrial plants</li>
-                            <li>Implemented state machines and control algorithms for process automation</li>
-                            <li>Commissioned automation systems across multiple industrial sectors</li>
-                        </ul>
+                        <div class="tl-achievements-title">Service & Business Impact:s:</div>
+                    <ul>
+                        <li>Led automation commissioning, preventive maintenance, and retrofit projects across diverse industries within defined region</li>
+                        <li>Managed 10–12 active AMC contracts, ensuring SLA compliance, system reliability, and long-term client retention</li>                        
+                        <li>Provided advanced technical troubleshooting and lifecycle support for Siemens PCS7, PLC, HMI, and WinCC platforms</li>                        
+                        <li>Strengthened service business for Digital Factory (DF) products by securing retrofit projects and spares contracts</li>                        
+                        <li>Developed automation and service solutions for major industrial clients including IOCL, Reliance, GAIL, Lubrizol, and Solvay</li>
+                    </ul>
                     </div>
                 </div>
 
@@ -590,9 +597,9 @@
                     <div class="tl-year">2010 — 2014</div>
                     <div class="tl-title">Early Career — Design & Systems</div>
                     <div class="tl-company">SAI Technologies · Flexible Automation · Metalandes (Colombia)</div>
-                    <p class="tl-desc">Foundation years building expertise in I&C systems design, PLC programming, and international standards compliance.</p>
+                    <p class="tl-desc">Built foundational expertise in industrial automation design, PLC programming, and instrumentation systems across India and international assignments. Gained hands-on exposure to multi-platform automation environments and ISA-compliant system design.</p>
                     <div class="tl-achievements">
-                        <div class="tl-achievements-title">Early Achievements:</div>
+                        <div class="tl-achievements-title">Foundation & Technical Development:</div>
                         <ul>
                             <li>Designed I&C systems for water treatment plants per ISA standards</li>
                             <li>Developed automation templates for Mitsubishi and Rockwell platforms</li>
@@ -603,8 +610,62 @@
             </div>
         </div>
 
-        <!-- LEADERSHIP TRACK -->
-        <div class="exp-content" id="leadership">
+        <!-- KEY PORTFOLIO TRACK -->
+        <div style="display:grid; gap:56px;">
+        
+            <!-- Service Operations -->
+            <div>
+                <div class="tl-title" style="font-size:22px;">
+                    🛠 Service Operations & Aftermarket
+                </div>
+        
+                <div class="tl-achievements">
+                    <ul>
+                        <li>Preparation and execution of SLA-based service contracts across industrial automation systems</li>
+                        <li>Management of AMC portfolios, retrofit projects, and spares lifecycle coordination</li>
+                        <li>Field service planning, commissioning oversight, and client relationship management</li>
+                        <li>Retrofit project handling and spares contract execution</li>
+                        <li>Client engagement and long-term service relationship development</li>
+                        <li>Coordinated cross-functional teams to deliver timely service support and reduce operational downtime</li>             
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Digital Transformation -->
+            <div>
+                <div class="tl-title" style="font-size:22px;">
+                    💻 Digital Transformation Initiatives
+                </div>
+        
+                <div class="tl-achievements">
+                    <ul>
+                        <li>Leading digital transformation initiatives within service operations (Nov 2025–Present)</li>
+                        <li>Streamlined 5+ internal processes through structured digital automation and system integration</li>
+                        <li>Implemented enquiry tracking, CRM/ERP integration, and Power BI reporting dashboards</li>
+                         <li>SQL-based data systems and Power BI reporting dashboards</li>
+                        <li>Bridging operational teams with data-driven decision frameworks</li>                        
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Automation Execution -->
+            <div>
+                <div class="tl-title" style="font-size:22px;">
+                    ⚙ Automation & Technical Execution
+                </div>
+        
+                <div class="tl-achievements">
+                    <ul>
+                        <li>Commissioning and troubleshooting of PCS7, PLC, HMI, and SCADA-based automation systems</li>                       
+                        <li>Automation lifecycle support across manufacturing and process industries</li>
+                        <li>Preventive maintenance and reliability enhancement programs</li>
+                        <li>Technical solution development across manufacturing and process industries</li>
+                        <li>ISA-compliant instrumentation and control system design exposure</li>                        
+                    </ul>
+                </div>
+            </div>        
+        </div>       
+    <!--    <div class="exp-content" id="portfolios">
             <div class="timeline">
                 <div class="tl-item">
                     <div class="tl-dot"></div>
@@ -657,16 +718,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
-</section>
+</section> 
 
 <!-- SKILLS TWO SECTIONS -->
 <section class="section section-alt" id="skills">
     <div class="container">
         <div class="s-head center">
-            <div class="s-tag">CORE COMPETENCIES</div>
-            <h2 class="s-title">Technical Skills</h2>
+     <!--       <div class="s-tag">CORE COMPETENCIES</div> -->
+            <h2 class="s-title">Core Competencies</h2>
             <p class="s-sub">Comprehensive expertise across industrial automation and modern digital technologies</p>
         </div>
         <div class="skills-wrapper">
@@ -677,17 +738,17 @@
                     Industrial & Technical
                 </div>
                 <div class="skills-grid">
-                    <div class="skill-item">Service Sales</div>
-                    <div class="skill-item">Technical Sales</div>
-                    <div class="skill-item">Project Management</div>
-                    <div class="skill-item">SCADA Systems</div>
-                    <div class="skill-item">PLC Programming</div>
-                    <div class="skill-item">PCS7 (Siemens)</div>
-                    <div class="skill-item">HMI Design</div>
-                    <div class="skill-item">Process Control</div>
-                    <div class="skill-item">ISA Standards</div>
-                    <div class="skill-item">SQL Databases</div>
-                    <div class="skill-item">Power BI</div>
+                    <div class="skill-item">Service Operations Management</div>
+                    <div class="skill-item">SLA & AMC Contract Handling</div>
+                    <div class="skill-item">Aftermarket & Retrofit Solutions</div>
+                    <div class="skill-item">Field Service Coordination</div>
+                     <div class="skill-item">Service & Digital Solution Sales (Techno-Commercial)</div>
+                    <div class="skill-item">PLC / PCS7 / SCADA Systems</div>
+                    <div class="skill-item">Commissioning & Troubleshooting</div>
+                    <div class="skill-item">Process Control Systems</div>
+                    <div class="skill-item">Technical Sales Support</div>
+                    <div class="skill-item">Client Relationship Management</div>
+                    <div class="skill-item">ISA Standards & Compliance</div>         
                 </div>
             </div>
 
@@ -698,18 +759,19 @@
                     Digital & AI
                 </div>
                 <div class="skills-grid">
-                    <div class="skill-item">n8n Automation</div>
-                    <div class="skill-item">AI/LLM Integration</div>
+                    <div class="skill-item">Digital Transformation Initiatives</div>
+                    <div class="skill-item">Process Automation & Workflow Optimization</div>
+                    <div class="skill-item">CRM / ERP System Integration</div>
+                    <div class="skill-item">SQL & Data System Development</div>
+                    <div class="skill-item">Power BI & Operational Dashboards</div>
+                    <div class="skill-item">AI-Enabled Process Improvements</div>
                     <div class="skill-item">RAG Systems</div>
-                    <div class="skill-item">API Integration</div>
-                    <div class="skill-item">Workflow Automation</div>
-                    <div class="skill-item">Digital Transformation</div>
-                    <div class="skill-item">Data Analytics</div>
-                    <div class="skill-item">CRM/ERP Integration</div>
-                    <div class="skill-item">Flowise</div>
-                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">LLM & Automation Tool Integration</div>
+                    <div class="skill-item">API Integration & System Orchestration</div>
+                    <div class="skill-item">Data-Driven Decision Support</div>
+                    <div class="skill-item">Low-Code Automation Platforms</div>
                     <div class="skill-item">Cloud Platforms</div>
-                    <div class="skill-item">Local Hosting</div>
+                    <div class="skill-item">Local Hosting</div>                   
                 </div>
             </div>
         </div>
@@ -724,7 +786,7 @@
             <h2 class="s-title">Certifications & Education</h2>
         </div>
         <div class="certs-grid">
-            <div class="cert-card featured">
+            <div class="cert-card">
                 <div class="cert-icon">🏆</div>
                 <div class="cert-title">n8n Level 2 Certification</div>
                 <div class="cert-issuer">Advanced Workflow Automation</div>
@@ -767,18 +829,19 @@
 <!-- CTA -->
 <div class="container">
     <div class="cta-wrap">
-        <h2>Let's Discuss Opportunities</h2>
-        <p>Open to relocation and new challenges. If you're looking for an engineer who combines deep industrial automation expertise with modern AI and digital transformation capabilities, let's connect.</p>
-        <div class="cta-btns">
-            <a href="https://wa.me/919925798962" target="_blank" class="btn-primary">
-                <svg width="18" height="18" fill="background:#25d366; color:white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                WhatsApp
-            </a>
-            <a href="mailto:harvishshah@gmail.com" class="btn-primary">
-                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                Email
-            </a>
-        </div>
+        <h2>Exploring Service & Digital Transformation Roles</h2>
+        <p>Available for relocation and cross-cultural assignments in service leadership, automation management, and digital transformation roles. With 14+ years of industrial automation experience, I combine SLA-driven service execution, techno-commercial ownership, and structured digital process improvement initiatives to deliver measurable operational impact.</p>
+    <div class="cta-btns">
+        <a href="mailto:harvishshah@gmail.com" class="btn-primary">
+            ✉ Email
+        </a>
+        <a href="https://www.linkedin.com/in/harvish-shah" target="_blank" class="btn-secondary">
+            💼 LinkedIn
+        </a>
+        <a href="tel:+919925798962" class="btn-secondary">
+            📞 Call
+        </a>
+    </div>
     </div>
 </div>
 
@@ -788,29 +851,31 @@
         <div class="s-head">
             <div class="s-tag">GET IN TOUCH</div>
             <h2 class="s-title">Contact Information</h2>
-            <p class="s-sub">Open to discussing opportunities. Reach out via WhatsApp, email, or LinkedIn.</p>
+            <p class="s-sub">Open to discussing service leadership, automation management, and digital transformation opportunities. Feel free to connect via email, LinkedIn, or phone.</p>
         </div>
         <div class="contact-grid">
             <div>
                 <div class="ci-row">
-                    <div class="ci-icon-box">💬</div>
-                    <div>
-                        <div class="ci-lbl">WhatsApp (Preferred)</div>
-                        <div class="ci-val"><a href="https://wa.me/919925798962" target="_blank">+91 99257 98962</a></div>
-                    </div>
-                </div>
-                <div class="ci-row">
                     <div class="ci-icon-box">✉️</div>
                     <div>
                         <div class="ci-lbl">Email</div>
-                        <div class="ci-val"><a href="mailto:harvishshah@gmail.com">harvishshah@gmail.com</a></div>
+                        <div class="ci-val">
+                            <a href="mailto:harvishshah@gmail.com">harvishshah@gmail.com</a>
+                        </div>
                     </div>
                 </div>
                 <div class="ci-row">
                     <div class="ci-icon-box">💼</div>
                     <div>
                         <div class="ci-lbl">LinkedIn</div>
-                        <div class="ci-val"><a href="https://www.linkedin.com/in/harvishshah" target="_blank">linkedin.com/in/harvishshah</a></div>
+                            <div class="ci-val"><a href="https://www.linkedin.com/in/harvishshah" target="_blank">linkedin.com/in/harvishshah</a></div>
+                    </div>
+                </div>
+                <div class="ci-row">
+                    <div class="ci-icon-box">📞</div>
+                    <div>
+                        <div class="ci-lbl">Phone</div>
+                            <div class="ci-val"><a href="tel:+919925798962">+91 99257 98962</a></div>
                     </div>
                 </div>
                 <div class="ci-row">
